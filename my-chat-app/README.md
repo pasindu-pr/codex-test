@@ -1,6 +1,6 @@
 # My Chat App
 
-This is a minimal React + TypeScript chat example built with Vite. It uses **Tailwind CSS** for styling and **shadcn/ui** for UI components.
+This is a minimal React + TypeScript chat example built with Vite. It uses **Tailwind CSS** for styling and **shadcn-ui-react** for UI components.
 
 ## Setup
 
@@ -18,7 +18,7 @@ npm run dev
 - `src/components/MessageBubble.tsx` – styled message bubble.
 - `src/components/ChatInput.tsx` – input field and send button.
 
-Tailwind and shadcn/ui are configured through `tailwind.config.ts` and imported in `index.css`.
+Tailwind and shadcn-ui-react are configured through `tailwind.config.ts`. Global styles from the library are imported in `main.tsx` via `shadcn-ui-react/dist/style.css`.
 
 Each chat message has a unique ID generated with the `uuid` package.
 

@@ -1,4 +1,4 @@
-import { Input, Button } from 'shadcn-ui';
+import { Input, Button } from 'shadcn-ui-react';
 import { useChat } from '../context/ChatContext';
 
 export default function ChatInput() {

@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react';
-import { ScrollArea } from 'shadcn-ui';
+import { ScrollArea } from 'shadcn-ui-react';
 import { useChat } from '../context/ChatContext';
 import MessageBubble from './MessageBubble';
 

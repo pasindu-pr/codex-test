@@ -1,4 +1,4 @@
-import { Card } from 'shadcn-ui';
+import { Card } from 'shadcn-ui-react';
 import MessageList from './MessageList';
 import ChatInput from './ChatInput';
 
